@@ -7,8 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        
         <!--elemento capaz de contener mas elemntos dentro de el-->
         <TextBlock x:Name="lblHolaMundo">Hola mundo!!</TextBlock>
-        <Button x:Name="btnBoton" Margin="19,43,694,343">Botón</Button>
+        <Button x:Name="btnBoton" Width="100" Height="50" Margin="22,43,670,326">Botón</Button>
+        <Button x:Name="btnBotonSegundo" Width="100" Height="50" Margin="147,43,545,326" Click="BtnBotonSegundo_Click">Botón 2</Button>
+        <Button x:Name="btnBotonTercero" Width="100" Height="50" Margin="22,119,670,250" Click="BtnBotonTercero_Click">Botón 3</Button>
     </Grid>
 </Window>
